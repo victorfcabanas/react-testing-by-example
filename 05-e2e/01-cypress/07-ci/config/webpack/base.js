@@ -8,7 +8,7 @@ module.exports = merge(
     context: helpers.resolveFromRootPath('src'),
     resolve: {
       alias: {
-        '@material-ui/core': '@material-ui/core/es',
+        '@material-ui/core': '@material-ui/core',
         common: helpers.resolveFromRootPath('src/common'),
         core: helpers.resolveFromRootPath('src/core'),
         layouts: helpers.resolveFromRootPath('src/layouts'),
